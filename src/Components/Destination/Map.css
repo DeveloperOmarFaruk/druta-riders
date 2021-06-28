@@ -1,0 +1,29 @@
+/* Laptop or Computer Device */
+
+.map-container {
+    width: 100%;
+    height: 68vh;
+    position: relative;
+}
+
+
+/* Tab Device */
+
+@media (max-width: 1024px) {
+    .map-container {
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
+}
+
+
+/* Mobile Device */
+
+@media (max-width: 768px) {
+    .map-container {
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
+}

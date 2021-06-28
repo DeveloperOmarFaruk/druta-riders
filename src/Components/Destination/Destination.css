@@ -1,0 +1,152 @@
+.destination-container {
+    position: relative;
+    top: 9rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1124px;
+}
+
+.destination-left-container {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.destination-right-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.destination-right-container img {
+    width: 100%;
+}
+
+.input-container input {
+    width: 90%;
+}
+
+.search-btn {
+    background-color: tomato;
+    color: white;
+    padding: 18px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.search-btn:hover {
+    color: black;
+    background-color: rgb(255, 132, 110);
+    transition: 0.5s ease;
+}
+
+.search-result {
+    background-color: tomato;
+    color: white;
+    text-align: start;
+    font-size: 25px;
+    padding: 18px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.li {
+    border-left: 1px solid white;
+    margin: 10px 0px;
+}
+
+.search-info {
+    display: flex;
+    justify-content: center;
+}
+
+.name,
+.price,
+.count {
+    padding: 15px 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.name {
+    padding-right: 50px;
+}
+
+.price,
+.name {
+    padding-left: 35px;
+}
+
+.search-image {
+    margin: 0px 40px 0px 0px;
+    width: 13%;
+}
+
+.search-user-image {
+    margin: 0 0;
+    width: 6%;
+    height: 6%;
+    padding: 15px 0px;
+}
+
+@media (max-width: 1024px) {
+    .destination-container {
+        position: relative;
+        top: 12rem;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 924px;
+    }
+    .search-result {
+        width: 90%;
+    }
+    .search-info {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .name,
+    .price,
+    .count {
+        padding: 15px 15px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    .destination-container {
+        position: relative;
+        top: 12rem;
+        display: inline;
+        margin: 0 auto;
+        width: 1124px;
+    }
+    .destination-left-container {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .destination-right-container {
+        width: 90%;
+        margin: 70px auto;
+    }
+    .input-container input {
+        width: 100%;
+    }
+    .search-result {
+        width: 100%;
+    }
+    .search-info {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

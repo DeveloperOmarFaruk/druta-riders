@@ -1,0 +1,157 @@
+.login-container {
+    position: relative;
+    top: 5rem;
+}
+
+.social-login img {
+    width: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-login {
+    font-family: sans-serif;
+    width: 500px;
+    margin: 3rem auto;
+    border-radius: 5px;
+    border: 1px solid rgba(167, 167, 167, 0.8);
+    background-color: #ffff;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: start;
+    font-weight: bold;
+    margin: 0rem 0rem 3rem 0rem;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.btn-text {
+    margin: 0;
+    cursor: pointer;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.google-btn {
+    background: #fff;
+    border: 1px solid rgba(167, 167, 167, 0.8);
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    padding: 10px 10px;
+    flex: auto;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.or {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(167, 167, 167, 0.8);
+    line-height: 0.1em;
+    margin: 25px auto;
+    width: 400px;
+}
+
+.or span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.email-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-login label {
+    color: rgb(170 166 166);
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 15px 20px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.cta-btn {
+    background-color: tomato;
+    color: white;
+    padding: 18px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.cta-btn:hover {
+    color: black;
+    background-color: rgb(255, 132, 110);
+    transition: 0.5s ease;
+}
+
+.forget-pass {
+    text-align: center;
+    display: block;
+}
+
+.p {
+    cursor: pointer;
+    color: tomato;
+}
+
+.span {
+    color: red;
+}
+
+@media (max-width: 1024px) {
+    .login-container {
+        top: 10rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .login-container {
+        top: 9rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .card-login {
+        width: 90%;
+        margin: 3rem auto;
+    }
+    .social-login {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .or {
+        margin: 25px auto;
+        width: 80%;
+    }
+    .subtitle {
+        font-size: 13px;
+    }
+}
