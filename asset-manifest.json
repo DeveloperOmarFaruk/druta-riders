@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/druta-riders/static/css/main.54d1d190.chunk.css",
+    "main.js": "/druta-riders/static/js/main.084b9a47.chunk.js",
+    "main.js.map": "/druta-riders/static/js/main.084b9a47.chunk.js.map",
+    "runtime-main.js": "/druta-riders/static/js/runtime-main.48dfb628.js",
+    "runtime-main.js.map": "/druta-riders/static/js/runtime-main.48dfb628.js.map",
+    "static/js/2.c5884e63.chunk.js": "/druta-riders/static/js/2.c5884e63.chunk.js",
+    "static/js/2.c5884e63.chunk.js.map": "/druta-riders/static/js/2.c5884e63.chunk.js.map",
+    "index.html": "/druta-riders/index.html",
+    "static/css/main.54d1d190.chunk.css.map": "/druta-riders/static/css/main.54d1d190.chunk.css.map",
+    "static/js/2.c5884e63.chunk.js.LICENSE.txt": "/druta-riders/static/js/2.c5884e63.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/druta-riders/static/media/Bg.250bcbb7.png",
+    "static/media/Frame-1.8d58d4d8.png": "/druta-riders/static/media/Frame-1.8d58d4d8.png",
+    "static/media/Frame-2.8a50352e.png": "/druta-riders/static/media/Frame-2.8a50352e.png",
+    "static/media/Frame.2d6146f5.png": "/druta-riders/static/media/Frame.2d6146f5.png",
+    "static/media/Group.b5da43c7.png": "/druta-riders/static/media/Group.b5da43c7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48dfb628.js",
+    "static/js/2.c5884e63.chunk.js",
+    "static/css/main.54d1d190.chunk.css",
+    "static/js/main.084b9a47.chunk.js"
+  ]
+}
