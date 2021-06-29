@@ -22,7 +22,7 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar__text">
-          <Link to="/" className="logo">
+          <Link to="/druta-riders" className="logo">
             <img src={logo} alt="logo" />
           </Link>
 
@@ -32,7 +32,11 @@ const Navbar = () => {
 
           <ul className={click ? "nav-menu  active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/druta-riders"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>

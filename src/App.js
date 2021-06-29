@@ -21,7 +21,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" exact>
+          <Route path="/druta-riders" exact>
             <Header />
           </Route>
 

@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext } from "react";
 import { FakeData } from "../FakeData/FakeData";
 import { useHistory } from "react-router-dom";
 import "./Vechicles.css";

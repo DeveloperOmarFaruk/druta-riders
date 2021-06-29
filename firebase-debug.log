@@ -1,0 +1,113 @@
+[debug] [2021-06-29T11:52:52.082Z] ----------------------------------------------------------------------
+[debug] [2021-06-29T11:52:52.084Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DCL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-06-29T11:52:52.085Z] CLI Version:   9.14.0
+[debug] [2021-06-29T11:52:52.085Z] Platform:      win32
+[debug] [2021-06-29T11:52:52.085Z] Node Version:  v12.18.2
+[debug] [2021-06-29T11:52:52.133Z] Time:          Tue Jun 29 2021 17:52:52 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-06-29T11:52:52.133Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-29T11:52:52.200Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-29T11:52:52.200Z] > authorizing via signed-in user (omarfaruktotul1997170498@gmail.com)
+[debug] [2021-06-29T11:52:52.200Z] [iam] checking project druta-riders for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-06-29T11:52:52.206Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-06-29T11:52:52.206Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-29T11:52:57.202Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 29 Jun 2021 11:52:46 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-29T11:52:57.305Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/druta-riders:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-06-29T11:53:18.634Z] [iam] error while checking permissions, command may fail: FirebaseError: Server Error. connect ETIMEDOUT 142.250.195.170:443
+[debug] [2021-06-29T11:53:18.637Z] > refreshing access token with scopes: []
+[debug] [2021-06-29T11:53:18.638Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-29T11:53:22.107Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Tue, 29 Jun 2021 11:53:11 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-29T11:53:22.193Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/druta-riders [none]
+[debug] [2021-06-29T11:53:28.164Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/druta-riders 200
+[debug] [2021-06-29T11:53:28.165Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/druta-riders {"projectId":"druta-riders","projectNumber":"855200140866","displayName":"druta-riders","name":"projects/druta-riders","resources":{"hostingSite":"druta-riders"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'druta-riders'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-06-29T11:53:28.176Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-06-29T11:53:28.176Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-29T11:53:28.521Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 29 Jun 2021 11:53:19 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-29T11:53:28.625Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/druta-riders/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-06-29T11:53:32.275Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 29 Jun 2021 11:53:22 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[druta-riders]: beginning deploy... 
+[info] i  hosting[druta-riders]: found 19 files in build 
+[debug] [2021-06-29T11:53:32.600Z] > refreshing access token with scopes: []
+[debug] [2021-06-29T11:53:32.600Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-29T11:53:32.624Z] [hosting] hash cache [YnVpbGQ] stored for 19 files
+[debug] [2021-06-29T11:53:32.624Z] [hosting][hash queue][FINAL] {"max":271,"min":4,"avg":34.473684210526315,"active":0,"complete":19,"success":19,"errored":0,"retried":0,"total":19,"elapsed":300}
+[debug] [2021-06-29T11:53:35.808Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 29 Jun 2021 11:53:24 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-29T11:53:35.931Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/druta-riders/versions/ad89632e8aa0eea3:populateFiles [none]
+[debug] [2021-06-29T11:53:35.931Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/druta-riders/versions/ad89632e8aa0eea3:populateFiles {"files":{"/favicon.png":"147562f3405fde7ba3d95595ada9b532afc5b57f711b71127ea721e6a037dab0","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/asset-manifest.json":"f34cc2951a431097928d7a091b0c8eb266c4c741307d51819a3fc4dccdcee579","/index.html":"60cbd72887d78ac1960fc9144b6a65da4475ebe026205cb07018617b5b7478f6","/static/css/main.e355da6d.chunk.css":"a0bb31555c79c3d96a65f03be736bcca806c14f1731580374949f77390ede03c","/static/js/2.c5884e63.chunk.js.LICENSE.txt":"b32312c4bda831c5c7b865ab099c90694bceacf2485a8f0761a823ddb6b61838","/static/css/main.e355da6d.chunk.css.map":"e2d1abd838ba482e5995c3dde5d8dbf28702f86468a4a5548331e9dc3c109893","/static/js/main.084b9a47.chunk.js":"1dc3e2e3bab9048ec765bee0f1455cbb4bbb2d3486a125c0170c0633f911c86b","/static/js/runtime-main.8f20ee88.js":"eefbc37e5364f62e6eaa785a84128d83d0ca3b3814c3fbc43db2e1569e391e44","/static/js/runtime-main.8f20ee88.js.map":"560d5382519d61fdb0f8fcc77272cfd495f731aef6cb894ee2c2d086be7df520","/static/js/main.084b9a47.chunk.js.map":"d75ea569c9b932bc671697bb08811d5c8bc0bf9c5d23013754ae84f5570a28ad","/static/media/Frame.2d6146f5.png":"398aeceed97f84873b4bc7ce4330063649730e73b359a158b93379cf0d96d3dc","/static/media/Frame-1.8d58d4d8.png":"964f9ca42361697bb099452871a8fe8d2061b299b393ea8791d159bd78619ae3","/static/media/Frame-2.8a50352e.png":"dd877fc94842a875485586053add534b9ada07b3c2a5a187eb2f529d99e1a469","/static/media/Group.b5da43c7.png":"e1fa78c7d816cd3519fdd1dd3ed8f574ab4409069effeddf6e5cd6683a2e1970","/static/js/2.c5884e63.chunk.js":"d22cec34a3debe34fbe18303be99ae9ca905b60e5ebf1da84db15b10072b7bf1","/static/media/Bg.250bcbb7.png":"613aafbd45046aa39e32df89f6e755d4a6459a01bbfd9a08f002fc024db35240","/static/js/2.c5884e63.chunk.js.map":"d9d028eafb1cb862df842f8f5d9d1089d50b61cb7cfc8cc6481f4d0a368506ba"}}
+[debug] [2021-06-29T11:53:51.089Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/druta-riders/versions/ad89632e8aa0eea3:populateFiles 200
+[debug] [2021-06-29T11:53:51.089Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/druta-riders/versions/ad89632e8aa0eea3:populateFiles {"uploadRequiredHashes":["d75ea569c9b932bc671697bb08811d5c8bc0bf9c5d23013754ae84f5570a28ad","1dc3e2e3bab9048ec765bee0f1455cbb4bbb2d3486a125c0170c0633f911c86b","60cbd72887d78ac1960fc9144b6a65da4475ebe026205cb07018617b5b7478f6","f34cc2951a431097928d7a091b0c8eb266c4c741307d51819a3fc4dccdcee579"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files"}
+[debug] [2021-06-29T11:53:51.092Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/d75ea569c9b932bc671697bb08811d5c8bc0bf9c5d23013754ae84f5570a28ad [none]
+[debug] [2021-06-29T11:53:51.092Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/d75ea569c9b932bc671697bb08811d5c8bc0bf9c5d23013754ae84f5570a28ad [stream]
+[debug] [2021-06-29T11:53:51.093Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/1dc3e2e3bab9048ec765bee0f1455cbb4bbb2d3486a125c0170c0633f911c86b [none]
+[debug] [2021-06-29T11:53:51.093Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/1dc3e2e3bab9048ec765bee0f1455cbb4bbb2d3486a125c0170c0633f911c86b [stream]
+[debug] [2021-06-29T11:53:51.094Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/60cbd72887d78ac1960fc9144b6a65da4475ebe026205cb07018617b5b7478f6 [none]
+[debug] [2021-06-29T11:53:51.094Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/60cbd72887d78ac1960fc9144b6a65da4475ebe026205cb07018617b5b7478f6 [stream]
+[debug] [2021-06-29T11:53:51.095Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/f34cc2951a431097928d7a091b0c8eb266c4c741307d51819a3fc4dccdcee579 [none]
+[debug] [2021-06-29T11:53:51.095Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/f34cc2951a431097928d7a091b0c8eb266c4c741307d51819a3fc4dccdcee579 [stream]
+[debug] [2021-06-29T11:53:51.096Z] [hosting][populate queue][FINAL] {"max":18492,"min":18492,"avg":18492,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":18496}
+[debug] [2021-06-29T11:53:51.096Z] [hosting] uploads queued: 4
+[debug] [2021-06-29T11:54:12.841Z] [uploadQueue] Retrying task 60cbd72887d78ac1960fc9144b6a65da4475ebe026205cb07018617b5b7478f6
+[debug] [2021-06-29T11:54:12.843Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/60cbd72887d78ac1960fc9144b6a65da4475ebe026205cb07018617b5b7478f6 [none]
+[debug] [2021-06-29T11:54:12.843Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/60cbd72887d78ac1960fc9144b6a65da4475ebe026205cb07018617b5b7478f6 [stream]
+[debug] [2021-06-29T11:54:12.846Z] [uploadQueue] Retrying task f34cc2951a431097928d7a091b0c8eb266c4c741307d51819a3fc4dccdcee579
+[debug] [2021-06-29T11:54:12.847Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/f34cc2951a431097928d7a091b0c8eb266c4c741307d51819a3fc4dccdcee579 [none]
+[debug] [2021-06-29T11:54:12.847Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/f34cc2951a431097928d7a091b0c8eb266c4c741307d51819a3fc4dccdcee579 [stream]
+[debug] [2021-06-29T11:54:12.847Z] [uploadQueue] Retrying task d75ea569c9b932bc671697bb08811d5c8bc0bf9c5d23013754ae84f5570a28ad
+[debug] [2021-06-29T11:54:12.848Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/d75ea569c9b932bc671697bb08811d5c8bc0bf9c5d23013754ae84f5570a28ad [none]
+[debug] [2021-06-29T11:54:12.848Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/d75ea569c9b932bc671697bb08811d5c8bc0bf9c5d23013754ae84f5570a28ad [stream]
+[debug] [2021-06-29T11:54:12.850Z] [uploadQueue] Retrying task 1dc3e2e3bab9048ec765bee0f1455cbb4bbb2d3486a125c0170c0633f911c86b
+[debug] [2021-06-29T11:54:12.850Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/1dc3e2e3bab9048ec765bee0f1455cbb4bbb2d3486a125c0170c0633f911c86b [none]
+[debug] [2021-06-29T11:54:12.850Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/1dc3e2e3bab9048ec765bee0f1455cbb4bbb2d3486a125c0170c0633f911c86b [stream]
+[debug] [2021-06-29T11:54:16.809Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/1dc3e2e3bab9048ec765bee0f1455cbb4bbb2d3486a125c0170c0633f911c86b 200
+[debug] [2021-06-29T11:54:16.809Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/1dc3e2e3bab9048ec765bee0f1455cbb4bbb2d3486a125c0170c0633f911c86b [stream]
+[debug] [2021-06-29T11:54:17.066Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/f34cc2951a431097928d7a091b0c8eb266c4c741307d51819a3fc4dccdcee579 200
+[debug] [2021-06-29T11:54:17.066Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/f34cc2951a431097928d7a091b0c8eb266c4c741307d51819a3fc4dccdcee579 [stream]
+[debug] [2021-06-29T11:54:17.430Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/60cbd72887d78ac1960fc9144b6a65da4475ebe026205cb07018617b5b7478f6 200
+[debug] [2021-06-29T11:54:17.430Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/60cbd72887d78ac1960fc9144b6a65da4475ebe026205cb07018617b5b7478f6 [stream]
+[debug] [2021-06-29T11:54:17.602Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/d75ea569c9b932bc671697bb08811d5c8bc0bf9c5d23013754ae84f5570a28ad 200
+[debug] [2021-06-29T11:54:17.602Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/druta-riders/versions/ad89632e8aa0eea3/files/d75ea569c9b932bc671697bb08811d5c8bc0bf9c5d23013754ae84f5570a28ad [stream]
+[debug] [2021-06-29T11:54:17.603Z] [hosting][upload queue][FINAL] {"max":4755,"min":3960,"avg":4380.75,"active":0,"complete":4,"success":4,"errored":0,"retried":4,"total":4,"elapsed":26513}
+[info] +  hosting[druta-riders]: file upload complete 
+[debug] [2021-06-29T11:54:17.604Z] [hosting] deploy completed after 45327ms
+[debug] [2021-06-29T11:54:17.606Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "druta-riders"
+    },
+    "site": "druta-riders",
+    "version": "sites/druta-riders/versions/ad89632e8aa0eea3"
+  }
+]
+[info] i  hosting[druta-riders]: finalizing version... 
+[debug] [2021-06-29T11:54:17.612Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-06-29T11:54:17.612Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-29T11:54:19.461Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 29 Jun 2021 11:54:09 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-29T11:54:19.575Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/druta-riders/versions/ad89632e8aa0eea3?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2021-06-29T11:54:24.381Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 29 Jun 2021 11:54:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-29T11:54:24.382Z] [hosting] finalized version for druta-riders: {"name":"sites/druta-riders/versions/ad89632e8aa0eea3","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-06-29T11:53:22.514755Z","createUser":{"email":"omarfaruktotul1997170498@gmail.com"},"finalizeTime":"2021-06-29T11:54:13.182080Z","finalizeUser":{"email":"omarfaruktotul1997170498@gmail.com"}}
+[info] +  hosting[druta-riders]: version finalized 
+[info] i  hosting[druta-riders]: releasing new version... 
+[debug] [2021-06-29T11:54:24.387Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/druta-riders/releases?version_name=sites/druta-riders/versions/ad89632e8aa0eea3  
+ {"message":null}
+[debug] [2021-06-29T11:55:06.466Z] Error: connect ETIMEDOUT 172.217.31.202:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 172.217.31.202:443
