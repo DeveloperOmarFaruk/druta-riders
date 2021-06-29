@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/druta-riders/static/css/main.54d1d190.chunk.css",
-    "main.js": "/druta-riders/static/js/main.084b9a47.chunk.js",
-    "main.js.map": "/druta-riders/static/js/main.084b9a47.chunk.js.map",
+    "main.js": "/druta-riders/static/js/main.7031b42f.chunk.js",
+    "main.js.map": "/druta-riders/static/js/main.7031b42f.chunk.js.map",
     "runtime-main.js": "/druta-riders/static/js/runtime-main.48dfb628.js",
     "runtime-main.js.map": "/druta-riders/static/js/runtime-main.48dfb628.js.map",
     "static/js/2.c5884e63.chunk.js": "/druta-riders/static/js/2.c5884e63.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.48dfb628.js",
     "static/js/2.c5884e63.chunk.js",
     "static/css/main.54d1d190.chunk.css",
-    "static/js/main.084b9a47.chunk.js"
+    "static/js/main.7031b42f.chunk.js"
   ]
 }
